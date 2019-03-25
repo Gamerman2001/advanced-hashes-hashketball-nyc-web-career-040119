@@ -249,13 +249,8 @@ def long_name_steals_a_ton?
         long_name_stealer = key
       end 
     end 
-    
   end 
-  
-   binding.pry
-  
-  # long_name_stealer == player_most_steals ? true : false 
-  
+  long_name_stealer == player_most_steals ? true : false 
 end 
 
 def highest_steals
