@@ -242,10 +242,13 @@ def player_with_longest_name
 end 
 
 def long_name_steals_a_ton?
-  
+  game_hash.each do |key,value|
+    
+    binding.pry
+  end 
   
    
-  binding.pry
+  
   # long_name_stealer == player_most_steals ? true : false 
   
 end 
