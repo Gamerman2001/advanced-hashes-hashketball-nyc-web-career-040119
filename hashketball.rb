@@ -242,6 +242,15 @@ def player_with_longest_name
 end 
 
 def long_name_steals_a_ton?
+  
+  
+   
+  binding.pry
+  # long_name_stealer == player_most_steals ? true : false 
+  
+end 
+
+def highest_steals
   highest_steals = []
   game_hash.each do |key,value|
     value[:players].each do |key,value|
@@ -250,11 +259,6 @@ def long_name_steals_a_ton?
   end 
   highest_steals.sort!
   high_steal = highest_steals.last
-  
-   
-  binding.pry
-  # long_name_stealer == player_most_steals ? true : false 
-  
 end 
 
 def player_most_steals
