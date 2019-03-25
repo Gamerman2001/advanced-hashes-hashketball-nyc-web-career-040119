@@ -248,7 +248,9 @@ def long_name_steals_a_ton?
       highest_steals << value[:points]
     end 
   end 
-  high_steal = highest_steals.sort!
+  highest_steals.sort!
+  high_steal = highest_steals.last
+  
    
   binding.pry
   # long_name_stealer == player_most_steals ? true : false 
