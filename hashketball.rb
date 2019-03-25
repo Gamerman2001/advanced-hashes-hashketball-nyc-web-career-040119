@@ -250,7 +250,9 @@ def long_name_steals_a_ton?
   end 
   highest_steals.sort!
   long_name_stealer = highest_steals.last 
+  binding.pry
   long_name_stealer == player_most_steals ? true : false 
+  
 end 
 
 def player_most_steals
