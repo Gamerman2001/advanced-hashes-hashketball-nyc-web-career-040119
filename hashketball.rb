@@ -247,8 +247,8 @@ def long_name_steals_a_ton?
       if value[:steals] == highest_steals
         long_name_stealer = key
       end 
-      binding.pry
     end 
+    binding.pry
   end 
   
    
