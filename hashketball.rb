@@ -280,18 +280,5 @@ def player_most_steals
 end 
 
 
-# binding.pry
-# player = "Jeff Adrien"
-# num_points_scored(player)
-# team_colors("Charlotte Hornets")
-# team_names
-# player_numbers("Charlotte Hornets")
-# player_stats("Brendan Haywood")
-# big_shoe_rebounds
-
-# most_points_scored
-# player_with_longest_name
-# long_name_steals_a_ton?
-# player_most_steals
 
 
