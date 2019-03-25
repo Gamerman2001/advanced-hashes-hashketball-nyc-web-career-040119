@@ -270,7 +270,7 @@ def player_most_steals
   player 
 end 
 
-binding.pry
+
 # binding.pry
 # player = "Jeff Adrien"
 # num_points_scored(player)
@@ -282,7 +282,7 @@ binding.pry
 
 # most_points_scored
 # player_with_longest_name
-# long_name_steals_a_ton?
+long_name_steals_a_ton?
 player_most_steals
 
 
