@@ -262,7 +262,7 @@ def highest_steals
   highest_steals = []
   game_hash.each do |key,value|
     value[:players].each do |key,value|
-      highest_steals << value[:points]
+      highest_steals << value[:steals]
     end 
   end 
   highest_steals.sort!
