@@ -244,8 +244,9 @@ end
 def long_name_steals_a_ton?
   game_hash.each do |key,value|
     value[:players].each do |key,value|
+       binding.pry
       if value[:steals] == highest_steals
-    binding.pry
+   
       end 
     end 
   end 
